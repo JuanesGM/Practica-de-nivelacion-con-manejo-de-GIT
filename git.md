@@ -29,10 +29,10 @@ Un repositorio en Git es un directorio que contiene los archivos del proyecto y 
 
 ## Diferencias:
 
-|Proyecto Normal -> Repositorio Git |
-|Solo archivos -> Archivos + historial|
-|No guarda versiones -> Guarda versiones completas|
-|No permite revertir fácilmente -> Permite volver a versiones anteriores|
+- Proyecto Normal -> Repositorio Git 
+- Solo archivos -> Archivos + historial
+- No guarda versiones -> Guarda versiones completas
+- No permite revertir fácilmente -> Permite volver a versiones anteriores
 
 ---
 
