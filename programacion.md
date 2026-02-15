@@ -19,12 +19,12 @@ En Java existen 8 tipos de datos primitivos. No son objetos y almacenan valores 
 - boolean -> true o false
 
 Ejemplo:
-- ```java
+```java
 - int edad = 20;
 - double salario = 1500.50;
 - boolean activo = true;
 - char letra = 'A';
-
+```
 --- 
 
 # 17. ¿Cómo funcionan las estructuras de control de flujo en Java?
@@ -32,6 +32,7 @@ Ejemplo:
 Las estructuras de control permiten decidir el flujo del programa.
 
 ## Condicionales
+```java
 if
 - Ejecuta un bloque si se cumple una condición.
 if (edad >= 18) {
@@ -56,8 +57,9 @@ switch (dia) {
         System.out.println("Martes");
         break;
 }
-
+```
 ## Bucles
+```java
 for
 - Se usa cuando sabemos cuántas veces repetir.
 for (int i = 0; i < 5; i++) {
@@ -75,7 +77,7 @@ do-while
 do {
     contador++;
 } while (contador < 5);
-
+```
 ---
 
 # 18. ¿Por qué es importante usar nombres significativos para variables y métodos?
@@ -87,9 +89,13 @@ Usar nombres claros mejora:
 - Comprensión futura del proyecto
 
 Ejemplo incorrecto:
-- int x = 10;
+```java
+int x = 10;
+```
 Ejemplo correcto:
-- int edadUsuario = 10;
+```java
+int edadUsuario = 10;
+```
 
 Buenas prácticas:
 - Usar camelCase
@@ -106,6 +112,7 @@ Un objeto es una entidad que tiene:
 - Métodos (comportamientos)
 
 Ejemplo:
+```java
 class Persona {
     String nombre;
     int edad;
@@ -114,7 +121,7 @@ class Persona {
         System.out.println("Hola");
     }
 }
-
+```
 La POO permite modelar la realidad mediante clases y objetos.
 
 ---
@@ -134,12 +141,13 @@ La POO permite modelar la realidad mediante clases y objetos.
 
 ---
 
-21. ¿Qué es la herencia en POO y cómo se utiliza en Java?
+# 21. ¿Qué es la herencia en POO y cómo se utiliza en Java?
 La herencia permite crear una clase basada en otra.
 
 Se usa con la palabra clave extends.
 
 Ejemplo:
+```java
 class Animal {
     void hacerSonido() {
         System.out.println("Sonido");
@@ -151,7 +159,7 @@ class Perro extends Animal {
         System.out.println("Guau");
     }
 }
-
+```
 La clase Perro hereda métodos de Animal.
 Ventajas:
 - Reutilización de código
@@ -160,7 +168,7 @@ Ventajas:
 
 ---
 
-22. ¿Qué son los modificadores de acceso y cuáles son los más comunes en Java?
+# 22. ¿Qué son los modificadores de acceso y cuáles son los más comunes en Java?
 
 Controlan la visibilidad de clases, atributos y métodos.
 
@@ -177,12 +185,14 @@ Accesible dentro del mismo paquete y por herencia.
 Accesible solo dentro del mismo paquete.
 
 Ejemplo:
+```java
 private int edad;
 public void setEdad(int edad) {
     this.edad = edad;
 }
+```
 
-23. ¿Qué es una variable de entorno y por qué son importantes?
+# 23. ¿Qué es una variable de entorno y por qué son importantes?
 
 Una variable de entorno es un valor almacenado en el sistema operativo que puede ser utilizado por aplicaciones.
 
